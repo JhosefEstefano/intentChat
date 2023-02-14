@@ -1,0 +1,19 @@
+{
+  "name": "mongointentbot",
+  "version": "1.0.0",
+  "description": "Project about recreate alexa/dialogflow intents and context for the creation of bot whatsapp using node, express and mongoDB as database ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Jhosef",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
