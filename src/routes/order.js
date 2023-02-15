@@ -23,7 +23,7 @@ router.post('/order', async (req, res) => {
         .then(result => {
             res.status(200).json({
                 message: "orden creada",
-                obj: result
+                obj: result._id
             });
         })
         .catch(err => {
